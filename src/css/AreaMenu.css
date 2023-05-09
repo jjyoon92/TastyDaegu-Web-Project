@@ -1,0 +1,39 @@
+.area-menu {
+  width: 100%;
+  height: 150px;
+  background-color: #acdaef;
+}
+.area-menu div.inner {
+  max-width: 1500px;
+  min-width: 1200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+.area-menu div.inner ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.area-menu div.inner ul li {
+  width: 160px;
+  height: 70px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.area-menu div.inner ul li:last-child {
+  margin: 0;
+}
+
+/*# sourceMappingURL=AreaMenu.css.map */

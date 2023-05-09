@@ -1,0 +1,21 @@
+.post-search {
+  width: 100%;
+  min-width: 1200px;
+  height: 300px;
+  background-color: #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.post-search input {
+  width: 500px;
+  height: 50px;
+  margin: 0 20px;
+}
+.post-search button {
+  width: 100px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=PostSearch.css.map */

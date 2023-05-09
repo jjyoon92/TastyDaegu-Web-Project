@@ -1,0 +1,26 @@
+@use "./css/variables" as var;
+
+*{margin: 0;padding: 0;box-sizing: border-box}
+a{text-decoration: none;}
+a:visited{color: black}
+ol,ul{list-style: none;}
+#App{
+    //max-width: 1400px;
+    //min-width: 1000px;
+    width: 100%;
+    height: 100%;
+    //background-color: #045b3f;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: var.$back-color;
+}
+
+.container {
+    max-width : 1500px;
+    min-width: var.$min-width;
+    height: 100%;
+    //background-color: antiquewhite;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
